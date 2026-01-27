@@ -1,6 +1,10 @@
+import tailwindcssAnimate from 'tailwindcss-animate';
+
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    "@tailwindcss/postcss": {
+      plugins: [tailwindcssAnimate],
+    },
   },
 };
 
